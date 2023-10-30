@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ContadorComponent } from './contador/contador.component';
-import { CalculadoraComponent } from './calculadora/calculadora.component';
+import { ContadorComponent } from './componentes/contador/contador.component';
+import { CalculadoraComponent } from './componentes/calculadora/calculadora.component';
 
 const routes: Routes = [
   {
