@@ -1,11 +1,15 @@
 
  <h1 class="text-center m-3">Practica 1</h1>
- <ul class="list-group">
-  <li class="list-group-item" routerLink="calculadora" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
-    Calculadora
-  </li>
-  <li class="list-group-item" routerLink="contador" routerLinkActive="active"> 
-    Contador
-  </li>
-</ul>
+ <div class="row">
+  <div class="col col-1">
+    <button class="btn btn-primary" routerLink="calculadora" routerLinkActive="active">Calculadora</button>
+  </div>
+  <div class="col col-2 text-center"> 
+    <button class="btn btn-primary" routerLink="lista-compra" routerLinkActive="active">Lista Compra</button>  
+  </div>
+  <div class="col-1"> 
+    <button class="btn btn-primary" routerLink="contador" routerLinkActive="active">Contador</button>  
+  </div>
+</div>
+<hr>
 <router-outlet></router-outlet>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-lista-compra',
@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class ListaCompraComponent {
 
+  
+  productos: String[] = []
+
+  insertarProducto(valor: string){
+    if(valor.trim().length == 0){
+      return;
+    }
+    this.productos.push(valor);
+  }
 }

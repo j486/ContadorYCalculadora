@@ -1,1 +1,6 @@
-<p>lista-compra works!</p>
+<app-lista-compra-input (onEnter)="insertarProducto($event)"></app-lista-compra-input>
+<div class="row">
+    <div class="col">
+        <app-mostrar-lista-compra [lista]="productos"></app-mostrar-lista-compra>
+    </div>
+</div>
