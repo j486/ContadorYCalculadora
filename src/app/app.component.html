@@ -1,15 +1,17 @@
 
- <h1 class="text-center m-3">Practica 1</h1>
- <div class="row">
-  <div class="col col-1">
-    <button class="btn btn-primary" routerLink="calculadora" routerLinkActive="active">Calculadora</button>
-  </div>
-  <div class="col col-2 text-center"> 
-    <button class="btn btn-primary" routerLink="lista-compra" routerLinkActive="active">Lista Compra</button>  
-  </div>
-  <div class="col-1"> 
-    <button class="btn btn-primary" routerLink="contador" routerLinkActive="active">Contador</button>  
-  </div>
-</div>
+<h1 class="text-center m-3">Practica 1</h1>
+<nav class="navbar navbar-expand-lg">
+  <ul class="navbar-nav">
+    <li class="nav-item m-1">
+      <button class="btn btn-primary" routerLink="calculadora" routerLinkActive="active">Calculadora</button>
+    </li>
+    <li class="nav-item m-1">
+      <button class="btn btn-primary nav-item" routerLink="contador" routerLinkActive="active">Contador</button>  
+    </li>
+    <li class="nav-item m-1">
+      <button class="btn btn-primary nav-item" routerLink="lista-compra" routerLinkActive="active">Lista Compra</button> 
+    </li>
+  </ul>
+</nav>
 <hr>
 <router-outlet></router-outlet>
