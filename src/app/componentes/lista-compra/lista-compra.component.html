@@ -1,6 +1,12 @@
-<app-lista-compra-input (onEnter)="insertarProducto($event)"></app-lista-compra-input>
-<div class="row">
-    <div class="col">
-        <app-mostrar-lista-compra [lista]="productos"></app-mostrar-lista-compra>
+
+<div class="container">
+    <h2>Lista Compra</h2>
+    <div class="row mt-3">
+        <div class="col">
+            <app-lista-compra-input (onEnter)="insertarProducto($event)"></app-lista-compra-input>
+        </div>
+        <div class="col">
+            <app-mostrar-lista-compra [lista]="productos"></app-mostrar-lista-compra>
+        </div>
     </div>
 </div>

@@ -7,8 +7,8 @@ import { ContadorComponent } from './componentes/contador/contador.component';
 import { CalculadoraComponent } from './componentes/calculadora/calculadora.component';
 import { FormsModule } from '@angular/forms';
 import { ListaCompraComponent } from './componentes/lista-compra/lista-compra.component';
-import { MostrarListaCompraComponent } from './componentes/mostrar-lista-compra/mostrar-lista-compra.component';
-import { ListaCompraInputComponent } from './componentes/lista-compra-input/lista-compra-input.component'; // Importa FormsModule
+import { MostrarListaCompraComponent } from './componentes/mostrar-lista-compra/mostrar-lista-compra.component'; // Importa FormsModule
+import { ListaCompraInputComponent } from './componentes/lista-compra-input/lista-compra-input.component';
 
 @NgModule({
   declarations: [
