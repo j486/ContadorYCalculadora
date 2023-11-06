@@ -21,7 +21,7 @@ const routes: Routes = [
   pathMatch: 'full'
 },
 {
-  path: 'lista-compra',
+  path: 'lista-compra/:categoria',
   component: ListaCompraComponent,
   pathMatch: 'full'
 }
