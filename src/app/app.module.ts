@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ContadorComponent } from './componentes/contador/contador.component';
-import { CalculadoraComponent } from './componentes/calculadora/calculadora.component';
+import { ContadorComponent } from './components/contador/contador.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
 import { FormsModule } from '@angular/forms';
-import { ListaCompraComponent } from './componentes/lista-compra/lista-compra.component';
-import { MostrarListaCompraComponent } from './componentes/mostrar-lista-compra/mostrar-lista-compra.component'; // Importa FormsModule
-import { ListaCompraInputComponent } from './componentes/lista-compra-input/lista-compra-input.component';
+import { ListaCompraComponent } from './components/lista-compra/lista-compra.component';
+import { MostrarListaCompraComponent } from './components/mostrar-lista-compra/mostrar-lista-compra.component'; // Importa FormsModule
+import { ListaCompraInputComponent } from './components/lista-compra-input/lista-compra-input.component';
 
 @NgModule({
   declarations: [
